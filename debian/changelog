@@ -1,3 +1,9 @@
+xwidgets (0.25.1-0ppa2) unstable; urgency=medium
+
+  * Depend on googletest, clean up rules
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Tue, 07 Dec 2021 17:34:57 -0500
+
 xwidgets (0.25.1-0ppa1) unstable; urgency=medium
 
   * Initial Release.
