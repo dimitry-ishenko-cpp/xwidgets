@@ -1,3 +1,9 @@
+xwidgets (0.25.1-0ppa3) unstable; urgency=medium
+
+  * Disable -march=native
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Mon, 13 Dec 2021 12:10:20 -0500
+
 xwidgets (0.25.1-0ppa2) unstable; urgency=medium
 
   * Depend on googletest, clean up rules
