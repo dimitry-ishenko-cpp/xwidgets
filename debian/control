@@ -7,7 +7,7 @@ Build-Depends: cmake (>= 3.8),
  googletest <!nocheck>,
  nlohmann-json3-dev,
  pkgconf,
- xeus-dev (>= 1.0),
+ xeus-dev (>= 2.0),
  xproperty-dev (>= 0.11.0),
  xtl-dev (>= 0.7)
 Standards-Version: 4.5.1

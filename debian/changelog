@@ -1,3 +1,9 @@
+xwidgets (0.26.1) UNRELEASED; urgency=medium
+
+  * Update upstream to 0.26.1
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Mon, 13 Dec 2021 19:55:31 -0500
+
 xwidgets (0.25.1-0ppa3) unstable; urgency=medium
 
   * Disable -march=native
