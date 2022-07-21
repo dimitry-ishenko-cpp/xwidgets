@@ -4,12 +4,12 @@ This is Debian packaging for the
 [xwidgets](https://github.com/jupyter-xeus/xwidgets) repository.
 
 xwidgets along with other supporting packages can be conveniently installed from
-[ppa:ppa-verse/xeus](https://launchpad.net/~ppa-verse/+archive/ubuntu/xeus).
+[ppa:ppa-verse/xeus-cling](https://launchpad.net/~ppa-verse/+archive/ubuntu/xeus-cling).
 
 Building instructions:
 
 ```bash
-p=xwidgets b=debian # or focal or impish
+p=xwidgets b=debian # or another branch
 
 # clone this repo
 git clone -b ${b} --depth 1 https://github.com/dimitry-ishenko-cpp/${p}.git
