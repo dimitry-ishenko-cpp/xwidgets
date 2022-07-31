@@ -1,4 +1,4 @@
-xwidgets (0.26.1-0ppa2) unstable; urgency=medium
+xwidgets (0.26.1-0ppa2~ubuntu22.04) jammy; urgency=medium
 
   * Update README.md
   * Fix dependencies
