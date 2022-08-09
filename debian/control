@@ -4,11 +4,15 @@ Priority: optional
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Build-Depends: debhelper-compat (= 13),
  cmake,
+ doxygen,
  googletest <!nocheck>,
  nlohmann-json3-dev (>= 3.9.1),
  nlohmann-json3-dev (<< 3.10.4) | nlohmann-json3-dev (>= 3.10.5+p372a47),
  nlohmann-json3-dev (<< 3.10.6),
  pkgconf,
+ python3-breathe,
+ python3-sphinx,
+ python3-sphinx-rtd-theme,
  xeus-dev (>= 2.0),
  xproperty-dev (>= 0.11.0),
  xtl-dev (>= 0.7)
