@@ -1,18 +1,18 @@
 Source: xwidgets
-Priority: optional
 Section: devel
+Priority: optional
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Build-Depends: cmake (>= 3.8),
- debhelper-compat (= 12),
+Build-Depends: debhelper-compat (= 13),
+ cmake,
  googletest <!nocheck>,
  nlohmann-json3-dev (>= 3.9.1),
- nlohmann-json3-dev (< 3.10.4) | nlohmann-json3-dev (>= 3.10.5+p372a47),
- nlohmann-json3-dev (< 3.10.6),
+ nlohmann-json3-dev (<< 3.10.4) | nlohmann-json3-dev (>= 3.10.5+p372a47),
+ nlohmann-json3-dev (<< 3.10.6),
  pkgconf,
  xeus-dev (>= 2.0),
  xproperty-dev (>= 0.11.0),
  xtl-dev (>= 0.7)
-Standards-Version: 4.5.1
+Standards-Version: 4.6.0
 Homepage: https://github.com/jupyter-xeus/xwidgets
 Rules-Requires-Root: no
 
@@ -32,14 +32,14 @@ Description: A C++ backend for Jupyter interactive widgets
 Package: xwidgets-dev
 Architecture: any
 Multi-Arch: same
-Depends: libxwidgets1 (= ${binary:Version}),
+Depends: ${misc:Depends},
+ libxwidgets1 (= ${binary:Version}),
  nlohmann-json3-dev (>= 3.9.1),
- nlohmann-json3-dev (< 3.10.4) | nlohmann-json3-dev (>= 3.10.5+p372a47),
- nlohmann-json3-dev (< 3.10.6),
+ nlohmann-json3-dev (<< 3.10.4) | nlohmann-json3-dev (>= 3.10.5+p372a47),
+ nlohmann-json3-dev (<< 3.10.6),
  xeus-dev (>= 2.0),
  xproperty-dev (>= 0.11.0),
- xtl-dev (>= 0.7),
- ${misc:Depends}
+ xtl-dev (>= 0.7)
 Description: A C++ backend for Jupyter interactive widgets
  xwidgets is a C++ implementation of the Jupyter interactive widgets protocol.
  .
