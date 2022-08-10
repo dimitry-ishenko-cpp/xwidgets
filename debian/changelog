@@ -1,4 +1,14 @@
-xwidgets (0.26.1-0ppa2~ubuntu22.04) jammy; urgency=medium
+xwidgets (0.26.1-0ppa3) unstable; urgency=medium
+
+  * control: compat level 13
+  * rules: export variables
+  * Tighten up install files
+  * Build and install html docs
+  * Update README.md
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Tue, 09 Aug 2022 16:56:17 -0400
+
+xwidgets (0.26.1-0ppa2) unstable; urgency=medium
 
   * Update README.md
   * Fix dependencies
