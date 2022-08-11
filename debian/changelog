@@ -1,4 +1,4 @@
-xwidgets (0.26.1-0ppa4) unstable; urgency=medium
+xwidgets (0.26.1-0ppa4~ubuntu22.04) jammy; urgency=medium
 
   * Export DEB_CXXFLAGS_MAINT_APPEND
 
