@@ -1,4 +1,10 @@
-xwidgets (0.26.1-0ppa3~ubuntu22.04) jammy; urgency=medium
+xwidgets (0.26.1-0ppa4) unstable; urgency=medium
+
+  * Export DEB_CXXFLAGS_MAINT_APPEND
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Thu, 11 Aug 2022 11:52:44 -0400
+
+xwidgets (0.26.1-0ppa3) unstable; urgency=medium
 
   * control: compat level 13
   * rules: export variables
