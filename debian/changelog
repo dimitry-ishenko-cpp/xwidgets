@@ -1,4 +1,4 @@
-xwidgets (0.26.1-0ppa5) unstable; urgency=medium
+xwidgets (0.26.1-0ppa5~ubuntu22.04) jammy; urgency=medium
 
   * README.md: fix link
   * Set build type to Release
