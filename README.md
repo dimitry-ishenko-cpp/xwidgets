@@ -12,7 +12,7 @@ Or you can build it yourself:
 p=xwidgets b=debian # or another branch
 
 # clone this repo
-git clone -b ${b} --depth 1 https://github.com/dimitry-ishenko-cpp/${p}.git
+git clone -b ${b} https://salsa.debian.org/dimitry-ishenko/${p}.git
 r=$(cd ${p} && git log -n1 --oneline --no-decorate `git describe --tags --abbrev=0` | cut -d/ -f2)
 v=${r%-*}
 v=${v#*:}

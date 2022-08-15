@@ -41,7 +41,6 @@ Depends: ${misc:Depends},
  nlohmann-json3-dev (>= 3.9.1),
  nlohmann-json3-dev (<< 3.10.4) | nlohmann-json3-dev (>= 3.10.5+p372a47),
  nlohmann-json3-dev (<< 3.10.6),
- xeus-dev (>= 2.0),
  xproperty-dev (>= 0.11.0),
  xtl-dev (>= 0.7)
 Description: A C++ backend for Jupyter interactive widgets
