@@ -1,4 +1,4 @@
-xwidgets (0.26.1-0ppa6) unstable; urgency=medium
+xwidgets (0.26.1-0ppa6~ubuntu22.04) jammy; urgency=medium
 
   * Depend on nlohmann-json3-dev >= 3.11.2
 
