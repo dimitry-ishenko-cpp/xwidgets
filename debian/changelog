@@ -1,3 +1,9 @@
+xwidgets (0.26.1-0ppa6) unstable; urgency=medium
+
+  * Depend on nlohmann-json3-dev >= 3.11.2
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Tue, 16 Aug 2022 11:40:57 -0400
+
 xwidgets (0.26.1-0ppa5) unstable; urgency=medium
 
   * README.md: fix link
